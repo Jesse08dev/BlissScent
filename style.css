@@ -10,6 +10,7 @@
 
 body {
    background-color: #FFF6F6;
+
 }
 
 h1 {
@@ -32,4 +33,9 @@ h1 {
    /* -webkit-transition: all 0.3s ease-in-out;
    transition: all 0.3s ease-in-out; */
    background-color: black;
+}
+
+.home-page-img {
+   height: 200px;
+   width: 200px;
 }
