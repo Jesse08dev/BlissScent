@@ -50,12 +50,12 @@ h1 {
 }
 
 .fa-message-icon {
-   position: absolute;
+   position: fixed;
    /* height: 300px;
    width: 300px; */
-   top: 500px;
+   top: 700px;
    right: 50px;
-   color: #EB455F;
+   color: #191717;
    /* border: black; */
 }
 
@@ -71,3 +71,34 @@ h1 {
 li {
    margin-top: 10px;
 }
+
+.product-collection-container-header {
+   font-family: "brush script MT", cursive;
+   font-size: 2rem;
+   text-align: center;
+   text-decoration: underline;
+}
+
+.collection-section {
+   height: 250px;
+   margin: 20px auto;
+   padding: 20px 20px;
+   background-color: #FF8080;
+}
+
+.collection-section-h4 {
+   margin-top: 150px;
+}
+
+
+.best-seller-header {
+   font-family: "brush script MT", cursive;
+   font-size: 2rem;
+   text-align: center;
+   text-decoration: underline;
+}
+
+.best-seller-container {
+   
+}
+
