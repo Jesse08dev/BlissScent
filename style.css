@@ -59,7 +59,7 @@ h1 {
    position: fixed;
    /* height: 300px;
    width: 300px; */
-   top: 700px;
+   top: 800px;
    right: 50px;
    color: #191717;
    /* border: black; */
@@ -139,7 +139,39 @@ li {
 
 .subscribe-input-section {
    text-align: center;
+   margin-bottom: 20px;
 }
+
+.line {
+   border-bottom: 1px solid #FF8080;
+}
+
+/* footer section */
+
+
+.footer-section {
+   height: 20px;
+   display: flex;
+   justify-content: space-between;
+   /* display: inline-block; */
+   /* align-items: center;
+   text-align: center; */
+}
+
+.social-media-icons {
+   text-align: left;
+   /* align-items: center;
+   justify-content: center;
+   padding: 10px 0 10px 10px;
+   margin: 10px auto; */
+}
+
+.fa-brands {
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+}
+
 
 
 
