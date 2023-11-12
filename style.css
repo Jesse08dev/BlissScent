@@ -40,15 +40,18 @@ h1 {
 }
 
 /* slide over menu */
-.slide-over-menu-container {
-   background-color: #FF8080;
-   height: 300px;
-   left: 0;
-}
 
 .slide-over-menu-list  {
-   margin: 10px 0 10px 10px;
-   padding-top: 20px;
+   background-color: #FF8080;
+   height: 100%;
+   width: 100%;
+   margin: 0 0 10px 10px;
+   padding: 10px 10px;
+   position: absolute;
+   /* change right to 0 to reveal */
+   right: -100%;
+   gap: 0;
+   z-index: 99999;
 }
 
 /* title */
@@ -70,7 +73,7 @@ h1 {
 /* line per cat */
 .bottom-line {
       border-bottom: 1px solid #860A35;
-      width: 250px;
+      width: 350px;
       margin: 10px auto;
 
 }
