@@ -39,6 +39,43 @@ h1 {
    background-color: black;
 }
 
+/* slide over menu */
+.slide-over-menu-container {
+   background-color: #FF8080;
+   height: 300px;
+   left: 0;
+}
+
+.slide-over-menu-list  {
+   margin: 10px 0 10px 10px;
+   padding-top: 20px;
+}
+
+/* title */
+.img-title {
+   display: flex;
+}
+
+.img-slide-over {
+   margin-right: 10px;
+}
+
+/* img */
+.img-slide-over {
+   background-color: #860A35;
+   height: 20px;
+   width: 20px;
+}
+
+/* line per cat */
+.bottom-line {
+      border-bottom: 1px solid #860A35;
+      width: 250px;
+      margin: 10px auto;
+
+}
+
+
 /* home page */
 .home-page-img {
    position: relative;
