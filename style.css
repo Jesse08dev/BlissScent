@@ -80,11 +80,20 @@ h1 {
 
 
 /* home page */
-.home-page-img {
-   position: relative;
-   height: 400px;
+.home-page-img-container {
+   display: flex;
    width: 100%;
+   overflow-x: hidden;
+   /* overflow: hidden; */
 }
+
+.pg-img {
+   position: relative;
+   width: 600px;
+   height: 500px;
+   margin: 20px 20px;
+}
+
 .home-page-img-text {
    position: absolute;
    top: 200px;
@@ -94,7 +103,6 @@ h1 {
 }
 
 /* Seller Values */
-
 .fa-message-icon {
    position: fixed;
    /* height: 300px;
