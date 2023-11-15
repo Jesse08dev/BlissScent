@@ -81,20 +81,20 @@ h1 {
 
 /* home page */
 .home-page-img-container {
-   /* display: flex; */
-   width: 1500px;
-   /* padding-right: 30px ; */
-   overflow: hidden;
-
-   /* position: relative; */
+   width: 100%;
 }
 
 .pg-txt-container {
+  margin: 0 auto;
    display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   overflow: hidden;
 }
 
 .pg-img {
-   width: 900px;
+   width: 800px;
    height: 300px;
    /* margin: 20px 20px; */
 }
