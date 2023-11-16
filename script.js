@@ -22,7 +22,7 @@
   
 document.addEventListener('DOMContentLoaded', function () {
   let currentIndex = 0;
-  const slides = document.querySelectorAll('.pg-img');
+  const slides = document.querySelectorAll('.pg-txt-per-item');
   
   function showSlide(index) {
       slides.forEach((slide, i) => {

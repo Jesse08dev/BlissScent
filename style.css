@@ -80,26 +80,28 @@ h1 {
 
 
 /* home page */
-.home-page-img-container {
-   width: 100%;
-}
-
-.pg-txt-container {
-  margin: 0 auto;
+.homepage-img-container {
    display: flex;
-   text-align: center;
-   align-items: center;
    justify-content: center;
    overflow: hidden;
+   flex-grow: 1;
+   /* width: 100%; */
 }
 
-.pg-img {
-   width: 800px;
-   height: 300px;
-   /* margin: 20px 20px; */
+.homepage-img-plus-text-container {
+   background-color: #860A35;
+   text-align: center;
+   flex-basis: 800px;
+
 }
 
-.home-page-img-text {
+.homepage-img {
+   width: 350px;
+   height: 350px;
+   
+}
+
+.homepage-img-text {
    position: absolute;
    top: 200px;
    left: 20px;
