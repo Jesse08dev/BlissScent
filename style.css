@@ -23,7 +23,7 @@ h1 {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   height: 80px;
+   height: 70px;
    padding: 0 20px;
    margin: 10px auto;
 }
@@ -84,6 +84,7 @@ h1 {
    display: flex;
    overflow: hidden;
    width: 100%;
+   justify-content: center;
 }
 
 .homepage-img-individual {
@@ -92,14 +93,17 @@ h1 {
 }
 
 
-/* 
+
 .homepage-img-text {
    position: absolute;
-   top: 200px;
-   left: 20px;
+   text-align: center;
+   top: 120px;
+   padding: 20px;
+   /* left: 20px; */
    font-size: 1.125rem;
    font-family: 'Montserrat Alternates', sans-serif;
-} */
+   color: #AF2655;
+}
 
 /* Seller Values */
 .fa-message-icon {
