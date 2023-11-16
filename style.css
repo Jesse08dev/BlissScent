@@ -82,32 +82,24 @@ h1 {
 /* home page */
 .homepage-img-container {
    display: flex;
-   justify-content: center;
    overflow: hidden;
-   flex-grow: 1;
-   /* width: 100%; */
+   width: 100%;
 }
 
-.homepage-img-plus-text-container {
-   background-color: #860A35;
-   text-align: center;
-   flex-basis: 800px;
-
+.homepage-img-individual {
+   height: 400px;
+   width: 400px;
 }
 
-.homepage-img {
-   width: 350px;
-   height: 350px;
-   
-}
 
+/* 
 .homepage-img-text {
    position: absolute;
    top: 200px;
    left: 20px;
    font-size: 1.125rem;
    font-family: 'Montserrat Alternates', sans-serif;
-}
+} */
 
 /* Seller Values */
 .fa-message-icon {
