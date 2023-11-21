@@ -27,5 +27,6 @@ const navMenu = document.querySelector(".slide-over-menu-list");
 hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
+    document.body.style.overflow = "hidden";
 })
 

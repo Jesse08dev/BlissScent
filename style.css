@@ -70,6 +70,7 @@ h1 {
    gap: 0;
    z-index: 99999;
    transition: 0.7s ease;
+   overflow-x: hidden;
 }
 
 .slide-over-menu-list.active {
