@@ -34,9 +34,26 @@ h1 {
    width: 25px;
    height: 3px;
    margin-top: 5px;
-   /* -webkit-transition: all 0.3s ease-in-out;
-   transition: all 0.3s ease-in-out; */
+   -webkit-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
    background-color: black;
+}
+
+.hamburger-menu {
+   display: block;
+   /* margin-right: 30px; */
+}
+
+.hamburger-menu.active .bar:nth-child(2) {
+   opacity: 0;
+}
+
+.hamburger-menu.active .bar:nth-child(1) {
+   transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger-menu.active .bar:nth-child(3) {
+   transform: translateY(-8px) rotate(-45deg);
 }
 
 /* slide over menu */
@@ -114,12 +131,10 @@ h1 {
 /* Seller Values */
 .fa-message-icon {
    position: fixed;
-   /* height: 300px;
-   width: 300px; */
    top: 600px;
-   right: 50px;
+   left: 350px;
    color: #191717;
-   /* border: black; */
+
 }
 
 .company-values {

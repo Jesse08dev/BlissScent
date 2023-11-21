@@ -25,7 +25,7 @@ const hamburger = document.querySelector(".hamburger-menu");
 const navMenu = document.querySelector(".slide-over-menu-list");
 
 hamburger.addEventListener("click", () => {
-    // hamburger.classList.toggle("active");
+    hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
 })
 
