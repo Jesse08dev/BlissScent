@@ -54,6 +54,10 @@ h1 {
    z-index: 99999;
 }
 
+.slide-over-menu-list.active {
+   right: 0;
+}
+
 /* title */
 .img-title {
    display: flex;
