@@ -69,10 +69,12 @@ h1 {
    right: -100%;
    gap: 0;
    z-index: 99999;
+   transition: 0.7s ease;
 }
 
 .slide-over-menu-list.active {
    right: 0;
+   transition: 0.7s ease;
 }
 
 /* title */
