@@ -30,3 +30,26 @@ hamburger.addEventListener("click", () => {
     document.body.style.overflow = "hidden";
 })
 
+
+// best seller carousel
+
+var scrollContainer = document.querySelector(".best-seller-products-container");
+var backBtn = document.getElementById("backBtn");
+var nextBtn = document.getElementById("nextBtn");
+
+// scrollContainer.addEventListener("wheel", (evt) => {
+//     evt.preventDefault();
+//     scrollContainer.scrollLeft += evt.deltaY
+
+// })
+
+nextBtn.addEventListener("click", () => {
+    scrollContainer.style.scrollBehavior = "smooth";
+    scrollContainer.scrollLeft += 500;
+})
+
+backBtn.addEventListener("click", () => {
+    scrollContainer.style.scrollBehavior = "smooth";
+    scrollContainer.scrollLeft -= 500;
+})
+
