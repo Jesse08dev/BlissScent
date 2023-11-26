@@ -235,12 +235,14 @@ li {
 }
 
 /* selecting multiple descendants - h4 and h5 */
-.stay-in-touch-section h4, h5 {
+.stay-in-touch-section h4 {
    text-align: center;
    margin-bottom: 10px;
 }
 
 .subscribe-input-section {
+   display: flex;
+   flex-direction: column;
    text-align: center;
    margin-bottom: 20px;
 }
