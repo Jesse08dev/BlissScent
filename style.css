@@ -180,6 +180,10 @@ li {
    text-decoration: underline;
 }
 
+.best-seller-products-container {
+   margin: 0 auto;
+}
+
 .best-sellers-container {
    display: flex;
    text-align: center;
@@ -248,9 +252,18 @@ li {
 }
 
 #footer-email-btn {
-   margin: 10px auto 10px;
+   margin: 20px auto;
    width: 150px;
    background-color: #FF8080;
+}
+
+#send-email-status {
+   width: 100%;
+   margin: 0 auto 20px;
+   text-align: center;
+   /* padding: 20px 20px; */
+   display: block;
+   /* margin-top: 20px; */
 }
 
 .line {

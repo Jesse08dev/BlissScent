@@ -54,12 +54,12 @@ backBtn.addEventListener("click", () => {
 })
 
 
-//email
+//send email section
 var form = document.getElementById("my-form");
     
 async function handleSubmit(event) {
   event.preventDefault();
-  var status = document.getElementById("footer-email-btn");
+  var status = document.getElementById("send-email-status");
   var data = new FormData(event.target);
   fetch(event.target.action, {
     method: form.method,
